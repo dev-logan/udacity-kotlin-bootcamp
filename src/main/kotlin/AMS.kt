@@ -45,3 +45,20 @@ fun canAddFish(
     }
     return currentSum + fishSize <= threshold
 }
+
+fun shouldChangeWater(
+    day: String,
+    temperature: Int = 22,
+    dirty: Int = 20
+): Boolean {
+    val isTooHot = temperature > 30
+    val isDirty = dirty > 30
+    val isSunday = day == "Sunday"
+
+    return when {
+        isTooHot -> true
+        isDirty -> true
+        isSunday -> true
+        else -> false
+    }
+}
