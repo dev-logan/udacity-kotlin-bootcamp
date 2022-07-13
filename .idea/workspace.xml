@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1dbdf4c-f8f2-4f5f-82fa-80ced719c214" name="Changes" comment="Kotlin 공부">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Aquarium.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Fish.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Cooking/Spice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Cooking/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/filter-and-map.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/roll-dice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/what-should-i-do-today.kt" afterDir="false" />
+    <list default="true" id="c1dbdf4c-f8f2-4f5f-82fa-80ced719c214" name="Changes" comment="Kotlin 공부 2">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/AquariumFish.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/interface-abstract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Decorations/Decorations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Spices/Spice.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/AMS.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fortune-cookie2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fortune-cookie2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Aquarium.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aquarium/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -53,6 +50,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -65,9 +63,9 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
-    <configuration name="Filter_and_mapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Filter_and_mapKt" />
+  <component name="RunManager" selected="Kotlin.SpiceKt (1)">
+    <configuration name="DecorationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorations.DecorationsKt" />
       <module name="udacity-kotlin-bootcamp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Roll_diceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Roll_diceKt" />
+    <configuration name="SpiceKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Spices.SpiceKt" />
       <module name="udacity-kotlin-bootcamp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,19 +100,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.Filter_and_mapKt" />
+      <item itemvalue="Kotlin.DecorationsKt" />
+      <item itemvalue="Kotlin.SpiceKt (1)" />
       <item itemvalue="Kotlin.MainKt (1)" />
-      <item itemvalue="Kotlin.Roll_diceKt" />
       <item itemvalue="Kotlin.SpiceKt" />
       <item itemvalue="Kotlin.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SpiceKt (1)" />
+        <item itemvalue="Kotlin.DecorationsKt" />
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.SpiceKt" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.Roll_diceKt" />
-        <item itemvalue="Kotlin.Filter_and_mapKt" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +130,8 @@
       <workItem from="1657504251069" duration="350000" />
       <workItem from="1657504610215" duration="7426000" />
       <workItem from="1657523283304" duration="245000" />
-      <workItem from="1657523535750" duration="28198000" />
+      <workItem from="1657523535750" duration="30912000" />
+      <workItem from="1657677427745" duration="14176000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin 공부">
       <created>1657532403928</created>
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657532403928</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Kotlin 공부 2">
+      <created>1657619089446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657619089446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +166,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Kotlin 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin 공부" />
+    <MESSAGE value="Kotlin 공부 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin 공부 2" />
   </component>
 </project>
