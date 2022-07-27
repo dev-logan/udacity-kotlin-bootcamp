@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1dbdf4c-f8f2-4f5f-82fa-80ced719c214" name="Changes" comment="Kotlin 공부 2">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/AquariumFish.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/interface-abstract.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Decorations/Decorations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Spices/Spice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book.kt" afterDir="false" />
+    <list default="true" id="c1dbdf4c-f8f2-4f5f-82fa-80ced719c214" name="Changes" comment="Kotlin 공부 3">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/generics/Aquarium.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/library.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Aquarium.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aquarium/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,32 +36,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SpiceKt (1)">
+  <component name="RunManager" selected="Kotlin.LibraryKt">
     <configuration name="DecorationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Decorations.DecorationsKt" />
+      <module name="udacity-kotlin-bootcamp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LibraryKt" />
       <module name="udacity-kotlin-bootcamp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,27 +95,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cooking.SpiceKt" />
-      <module name="udacity-kotlin-bootcamp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Kotlin.LibraryKt" />
       <item itemvalue="Kotlin.DecorationsKt" />
       <item itemvalue="Kotlin.SpiceKt (1)" />
       <item itemvalue="Kotlin.MainKt (1)" />
-      <item itemvalue="Kotlin.SpiceKt" />
       <item itemvalue="Kotlin.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LibraryKt" />
         <item itemvalue="Kotlin.SpiceKt (1)" />
         <item itemvalue="Kotlin.DecorationsKt" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Kotlin.SpiceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +127,9 @@
       <workItem from="1657504610215" duration="7426000" />
       <workItem from="1657523283304" duration="245000" />
       <workItem from="1657523535750" duration="30912000" />
-      <workItem from="1657677427745" duration="14176000" />
+      <workItem from="1657677427745" duration="16005000" />
+      <workItem from="1658208481125" duration="2304000" />
+      <workItem from="1658303985540" duration="11485000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin 공부">
       <created>1657532403928</created>
@@ -147,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657619089446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Kotlin 공부 3">
+      <created>1657698474848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657698474848</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Kotlin 공부" />
     <MESSAGE value="Kotlin 공부 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin 공부 2" />
+    <MESSAGE value="Kotlin 공부 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin 공부 3" />
   </component>
 </project>
